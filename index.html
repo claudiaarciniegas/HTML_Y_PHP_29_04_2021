@@ -1,0 +1,48 @@
+
+<!doctype html>
+<HTML lang="sp">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="chrome:8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Y PHP</title>
+    </head>
+    <body>
+        
+        <form method="POST" action="formulario.php">
+            <label>Tipo de Identificación</label>
+            <select name="Ident">
+                <option value="Cédula de Ciudadanía">Cédula de Ciudadanía</option>
+                <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
+                <option value="Registro Civil">Registro Civil</option>
+            </select>
+            <br><br>
+            <label>Identificaión</label>
+            <input type="text" name="id">
+            <br><br>
+            <label>Nombre Completo</label>
+            <input type="text" name="nombre">
+            <br><br>
+            <label>Edad</label>
+            <input type="number" name="edad">
+            <br><br>
+            <label>Género</label>
+            <select name="Genero">
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Indiferente">Indiferente</option>
+            </select>
+            <br><br>
+            <label>Estado Civil</label>
+            <input type="radio" id="Casado" name="estado" value="estado">
+            <label for="estado">Casado</label>
+            <input type="radio" id="Soltero" name="estado" value="Soltero">
+            <label for="Soltero">Soltero</label>
+            <br><br>
+            
+            <input type="submit" value="Enviar datos">
+
+        </form>
+
+   </body> 
+</HTML>
